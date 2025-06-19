@@ -70,9 +70,9 @@ export const About: React.FC = () => {
             {/* Stats */}
             <div className="grid grid-cols-2 gap-6 pt-8">
               {[
-                { number: '5+', label: 'Years Experience' },
-                { number: '100+', label: 'Projects Delivered' },
-                { number: '50M+', label: 'API Calls Processed' },
+                { number: '3+', label: 'Years Experience' },
+                { number: '10+', label: 'Projects Delivered' },
+                { number: '11+', label: 'Expert Team' },
                 { number: '99.9%', label: 'Client Satisfaction' },
               ].map((stat, index) => (
                 <motion.div

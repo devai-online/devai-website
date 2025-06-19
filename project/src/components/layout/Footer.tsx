@@ -5,8 +5,8 @@ import { Button } from '../ui/Button';
 import { Logo } from '../ui/Logo';
 
 const socialLinks = [
-  { icon: Github, href: '#', label: 'GitHub' },
-  { icon: Linkedin, href: '#', label: 'LinkedIn' },
+  { icon: Github, href: 'https://github.com/devai-online', label: 'GitHub' },
+  { icon: Linkedin, href: 'https://www.linkedin.com/company/devai-online', label: 'LinkedIn' },
   { icon: Twitter, href: '#', label: 'Twitter' },
 ];
 

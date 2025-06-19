@@ -34,25 +34,43 @@ export const Contact: React.FC = () => {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
-    
-    // Simulate form submission
-    await new Promise(resolve => setTimeout(resolve, 2000));
-    
-    console.log('Form submitted:', formData);
-    alert('Thank you! We\'ll get back to you within 24 hours.');
-    
-    // Reset form
-    setFormData({
-      name: '',
-      email: '',
-      company: '',
-      budget: '',
-      message: '',
-      projectType: '',
-    });
-    
+  
+    try {
+      const res = await fetch('https://formspree.io/f/xeoklqkv', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          name: formData.name,
+          email: formData.email,
+          company: formData.company,
+          budget: formData.budget,
+          message: formData.message,
+          projectType: formData.projectType,
+        }),
+      });
+  
+      if (!res.ok) throw new Error('Failed to send');
+  
+      alert("Thank you! We'll get back to you within 24 hours.");
+      setFormData({
+        name: '',
+        email: '',
+        company: '',
+        budget: '',
+        message: '',
+        projectType: '',
+      });
+    } catch (error) {
+      console.error(error);
+      alert("Failed to send message. Please try again later.");
+    }
+  
     setIsSubmitting(false);
   };
+  
+  
 
   const contactInfo = [
     {
