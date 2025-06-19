@@ -183,19 +183,15 @@ export const Contact: React.FC = () => {
                     <label htmlFor="budget" className="block text-sm font-medium text-gray-300 mb-2">
                       Budget Range
                     </label>
-                    <select
+                    <input
+                      type="text"
                       id="budget"
                       name="budget"
                       value={formData.budget}
                       onChange={handleInputChange}
-                      className="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg focus:ring-2 focus:ring-accent-500 focus:border-transparent text-white"
-                    >
-                      <option value="">Select budget range</option>
-                      <option value="10k-25k">$10k - $25k</option>
-                      <option value="25k-50k">$25k - $50k</option>
-                      <option value="50k-100k">$50k - $100k</option>
-                      <option value="100k+">$100k+</option>
-                    </select>
+                      className="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg focus:ring-2 focus:ring-accent-500 focus:border-transparent text-white placeholder-gray-400 transition-colors"
+                      placeholder="e.g.₹50,000 - ₹1,00,000"
+                    />
                   </div>
                 </div>
 

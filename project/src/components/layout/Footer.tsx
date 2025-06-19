@@ -7,7 +7,7 @@ import { Logo } from '../ui/Logo';
 const socialLinks = [
   { icon: Github, href: 'https://github.com/devai-online', label: 'GitHub' },
   { icon: Linkedin, href: 'https://www.linkedin.com/company/devai-online', label: 'LinkedIn' },
-  { icon: Twitter, href: '#', label: 'Twitter' },
+  
 ];
 
 const quickLinks = [
