@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Bot, Cloud, Code, ArrowRight } from 'lucide-react';
+import { Bot, Cloud, Code, Shield, BarChart3, Cpu, ArrowRight } from 'lucide-react';
 import { services } from '../../data/content';
 import { Card } from '../ui/Card';
 import { Button } from '../ui/Button';
@@ -10,6 +10,9 @@ const iconMap = {
   Bot: Bot,
   Cloud: Cloud,
   Code: Code,
+  Shield: Shield,
+  BarChart3: BarChart3,
+  Cpu: Cpu,
 };
 
 export const Services: React.FC = () => {
@@ -33,12 +36,12 @@ export const Services: React.FC = () => {
             <span className="gradient-text"> Expertise</span>
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            We specialize in three key areas that drive modern business transformation
+            We specialize in comprehensive technology solutions that drive modern business transformation
           </p>
         </motion.div>
 
         {/* Services Grid */}
-        <div className="grid lg:grid-cols-3 gap-8 mb-16">
+        <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-8 mb-16">
           {services.map((service, index) => {
             const IconComponent = iconMap[service.icon as keyof typeof iconMap];
             
@@ -48,7 +51,7 @@ export const Services: React.FC = () => {
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
-                transition={{ delay: index * 0.2, duration: 0.8 }}
+                transition={{ delay: index * 0.1, duration: 0.8 }}
               >
                 <Card className="h-full" hover glow>
                   <div className="space-y-6">

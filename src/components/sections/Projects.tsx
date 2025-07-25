@@ -6,7 +6,7 @@ import { Card } from '../ui/Card';
 import { Button } from '../ui/Button';
 import { Section } from '../ui/Section';
 
-const categories = ['All', 'AI', 'DevOps', 'Web'];
+const categories = ['All', 'AI', 'DevOps', 'Security', 'Analytics', 'Web Development', 'Networking'];
 
 export const Projects: React.FC = () => {
   const [activeCategory, setActiveCategory] = useState('All');

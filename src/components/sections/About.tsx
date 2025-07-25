@@ -18,12 +18,12 @@ const values = [
   {
     icon: Shield,
     title: 'Enterprise Security',
-    description: 'Bank-grade security practices and compliance standards.',
+    description: 'Bank-grade security with Sophos, Cisco, and advanced threat protection.',
   },
   {
     icon: Users,
     title: 'Expert Team',
-    description: 'Seasoned professionals with proven track records in AI and DevOps.',
+    description: 'Seasoned professionals in AI, DevOps, security, and web development.',
   },
 ];
 
@@ -49,20 +49,21 @@ export const About: React.FC = () => {
               <div className="space-y-6 text-lg text-gray-300 leading-relaxed">
                 <p>
                   We're not just developers—we're architects of digital transformation. 
-                  With deep expertise in artificial intelligence and cloud infrastructure, 
-                  we help businesses leap into the future.
+                  With deep expertise in artificial intelligence, cloud infrastructure, 
+                  cybersecurity, and modern web development, we help businesses leap into the future.
                 </p>
                 
                 <p>
-                  Our approach combines cutting-edge AI technologies with battle-tested 
-                  DevOps practices to create solutions that don't just work—they excel, 
+                  Our comprehensive approach combines cutting-edge AI technologies with 
+                  enterprise-grade security solutions, robust networking infrastructure, 
+                  and stunning web applications to create solutions that don't just work—they excel, 
                   scale, and adapt to your growing needs.
                 </p>
                 
                 <p>
                   From Fortune 500 companies to innovative startups, we've delivered 
                   mission-critical systems that process millions of transactions, 
-                  serve millions of users, and generate millions in value.
+                  serve millions of users, protect against cyber threats, and generate millions in value.
                 </p>
               </div>
             </div>
@@ -70,9 +71,9 @@ export const About: React.FC = () => {
             {/* Stats */}
             <div className="grid grid-cols-2 gap-6 pt-8">
               {[
-                { number: '3+', label: 'Years Experience' },
-                { number: '10+', label: 'Projects Delivered' },
-                { number: '11+', label: 'Expert Team' },
+                { number: '5+', label: 'Years Experience' },
+                { number: '50+', label: 'Projects Delivered' },
+                { number: '15+', label: 'Expert Team' },
                 { number: '99.9%', label: 'Client Satisfaction' },
               ].map((stat, index) => (
                 <motion.div

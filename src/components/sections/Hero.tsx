@@ -48,7 +48,7 @@ export const Hero: React.FC = () => {
             className="inline-flex items-center space-x-2 bg-gray-800/50 backdrop-blur-sm px-4 py-2 rounded-full border border-accent-500/20"
           >
             <Sparkles className="w-4 h-4 text-accent-400" />
-            <span className="text-sm text-gray-300">AI & DevOps Specialists</span>
+            <span className="text-sm text-gray-300">AI, DevOps & Security Specialists</span>
           </motion.div>
 
           {/* Main Heading */}
@@ -84,8 +84,8 @@ export const Hero: React.FC = () => {
             transition={{ delay: 1.2, duration: 0.6 }}
             className="text-xl sm:text-2xl text-gray-300 max-w-4xl mx-auto leading-relaxed"
           >
-            We architect intelligent solutions, automate complex workflows, and scale 
-            businesses through cutting-edge AI integration and cloud-native infrastructure.
+            We architect intelligent solutions, secure your infrastructure, build stunning websites, 
+            and scale businesses through cutting-edge AI integration, cybersecurity, and cloud-native infrastructure.
           </motion.p>
 
           {/* CTA Buttons */}
@@ -121,7 +121,7 @@ export const Hero: React.FC = () => {
             className="grid grid-cols-1 sm:grid-cols-3 gap-8 pt-16 max-w-2xl mx-auto"
           >
             {[
-              { value: '3+', label: 'AI Projects' },
+              { value: '50+', label: 'Projects Delivered' },
               { value: '99.9%', label: 'Uptime' },
               { value: '24/7', label: 'Support' },
             ].map((stat, index) => (

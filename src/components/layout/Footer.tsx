@@ -57,8 +57,8 @@ export const Footer: React.FC = () => {
             </div>
             
             <p className="text-gray-400 leading-relaxed">
-              Transforming businesses through AI innovation and cloud-native infrastructure. 
-              Building the future, one intelligent solution at a time.
+              Transforming businesses through AI innovation, cybersecurity, web development, 
+              and cloud-native infrastructure. Building the future, one intelligent solution at a time.
             </p>
 
             <div className="flex space-x-4">
@@ -111,8 +111,10 @@ export const Footer: React.FC = () => {
               <li>AI Agent Development</li>
               <li>Cloud Migration</li>
               <li>DevOps Automation</li>
-              <li>Full-Stack Development</li>
-              <li>Technical Consulting</li>
+              <li>Cybersecurity Solutions</li>
+              <li>Web Development</li>
+              <li>Dashboard & Analytics</li>
+              <li>Network Infrastructure</li>
             </ul>
           </motion.div>
 

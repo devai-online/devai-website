@@ -7,7 +7,14 @@ const categoryColors = {
   AI: 'from-purple-500 to-pink-500',
   DevOps: 'from-blue-500 to-cyan-500',
   Cloud: 'from-green-500 to-teal-500',
-  'AI Database': 'from-indigo-500 to-purple-500'
+  'AI Database': 'from-indigo-500 to-purple-500',
+  Security: 'from-red-500 to-orange-500',
+  Networking: 'from-blue-600 to-indigo-600',
+  Frontend: 'from-emerald-500 to-green-500',
+  Backend: 'from-slate-500 to-gray-600',
+  Development: 'from-violet-500 to-purple-600',
+  Analytics: 'from-amber-500 to-yellow-500',
+  Monitoring: 'from-cyan-500 to-blue-500'
 };
 
 export const TechStack: React.FC = () => {
