@@ -246,7 +246,7 @@ export const clients = [
     name: "AA Designer Studio",
     website: "https://dev.aadesignerstudio.com",
     description: "Interior design studio creating beautiful, functional spaces that transform homes and businesses",
-    logo: "/src/data/FINAL LOGO PSD - R1.png",
+    logo: "/aa-designer-logo.png",
     category: "Interior Design",
     logoStyle: "minimalist"
   },
@@ -255,7 +255,7 @@ export const clients = [
     name: "Picklout",
     website: "https://picklout.com",
     description: "Tournament platform for pickleball players, organizing competitive events and connecting the pickleball community",
-    logo: "/src/data/Picklout logo - white.png",
+    logo: "/picklout-logo.png",
     category: "Sports Platform",
     logoStyle: "modern"
   }
