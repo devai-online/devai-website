@@ -4,6 +4,7 @@ import { Footer } from './components/layout/Footer';
 import { Hero } from './components/sections/Hero';
 import { About } from './components/sections/About';
 import { Services } from './components/sections/Services';
+import { Clients } from './components/sections/Clients';
 import { TechStack } from './components/sections/TechStack';
 import { Contact } from './components/sections/Contact';
 import { CursorTrail } from './components/ui/CursorTrail';
@@ -17,6 +18,7 @@ function App() {
         <Hero />
         <About />
         <Services />
+        <Clients />
         <TechStack />
         <Contact />
       </main>

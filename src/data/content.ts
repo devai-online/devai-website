@@ -239,3 +239,24 @@ export const testimonials = [
     avatar: "https://images.pexels.com/photos/1212984/pexels-photo-1212984.jpeg?auto=compress&cs=tinysrgb&w=100&h=100"
   }
 ];
+
+export const clients = [
+  {
+    id: 1,
+    name: "AA Designer Studio",
+    website: "https://dev.aadesignerstudio.com",
+    description: "Interior design studio creating beautiful, functional spaces that transform homes and businesses",
+    logo: "/src/data/FINAL LOGO PSD - R1.png",
+    category: "Interior Design",
+    logoStyle: "minimalist"
+  },
+  {
+    id: 2,
+    name: "Picklout",
+    website: "https://picklout.com",
+    description: "Tournament platform for pickleball players, organizing competitive events and connecting the pickleball community",
+    logo: "/src/data/Picklout logo - white.png",
+    category: "Sports Platform",
+    logoStyle: "modern"
+  }
+];
