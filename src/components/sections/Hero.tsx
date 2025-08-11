@@ -121,7 +121,7 @@ export const Hero: React.FC = () => {
             className="grid grid-cols-1 sm:grid-cols-3 gap-8 pt-16 max-w-2xl mx-auto"
           >
             {[
-              { value: '50+', label: 'Projects Delivered' },
+              { value: '6+', label: 'Projects Delivered' },
               { value: '99.9%', label: 'Uptime' },
               { value: '24/7', label: 'Support' },
             ].map((stat, index) => (
