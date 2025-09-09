@@ -71,10 +71,8 @@ export const About: React.FC = () => {
             {/* Stats */}
             <div className="grid grid-cols-2 gap-6 pt-8">
               {[
-                { number: '5+', label: 'Years Experience' },
                 { number: '6+', label: 'Projects Delivered' },
                 { number: '15+', label: 'Expert Team' },
-                { number: '99.9%', label: 'Client Satisfaction' },
               ].map((stat, index) => (
                 <motion.div
                   key={index}

@@ -118,12 +118,11 @@ export const Hero: React.FC = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 2, duration: 0.6 }}
-            className="grid grid-cols-1 sm:grid-cols-3 gap-8 pt-16 max-w-2xl mx-auto"
+            className="grid grid-cols-1 sm:grid-cols-2 gap-8 pt-16 max-w-2xl mx-auto"
           >
             {[
               { value: '6+', label: 'Projects Delivered' },
               { value: '99.9%', label: 'Uptime' },
-              { value: '24/7', label: 'Support' },
             ].map((stat, index) => (
               <div key={index} className="text-center">
                 <div className="text-3xl font-bold gradient-text">{stat.value}</div>
