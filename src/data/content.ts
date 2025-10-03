@@ -258,5 +258,23 @@ export const clients = [
     logo: "/picklout-logo.png",
     category: "Sports Platform",
     logoStyle: "modern"
+  },
+  {
+    id: 3,
+    name: "DiagnosticWale",
+    website: "https://diagnosticwale.com",
+    description: "Diagnostic services providing clarity in every test and care in every step for comprehensive health solutions",
+    logo: "/diagnosticwale-logo.png",
+    category: "Healthcare",
+    logoStyle: "professional"
+  },
+  {
+    id: 4,
+    name: "WebRocket",
+    website: "https://webrocket.biz",
+    description: "Full-service digital marketing agency helping businesses grow through data-driven strategies and creative excellence",
+    logo: "/webrocket.png",
+    category: "Digital Marketing",
+    logoStyle: "modern"
   }
 ];

@@ -1,7 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Cpu, Mail, Phone, MapPin, Github, Linkedin, Twitter } from 'lucide-react';
-import { Button } from '../ui/Button';
+import { Mail, MapPin, Github, Linkedin } from 'lucide-react';
 import { Logo } from '../ui/Logo';
 
 const socialLinks = [
@@ -18,7 +17,6 @@ const quickLinks = [
 
 const contactInfo = [
   { icon: Mail, text: 'contact@devai.online', href: 'mailto:contact@devai.online' },
-  { icon: Phone, text: '+91 9989498462', href: 'https://wa.me/919989498462' },
   { icon: MapPin, text: 'Hyderabad, India', href: '#' },
 ];
 
