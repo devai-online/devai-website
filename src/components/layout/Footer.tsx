@@ -153,14 +153,29 @@ export const Footer: React.FC = () => {
           </p>
           
           <div className="flex space-x-6 text-sm text-gray-500">
-            <a href="#" className="hover:text-accent-400 transition-colors">
-              Privacy Policy
+            <a 
+              href="https://merchant.razorpay.com/policy/Rig5IA6f1gVvjl/shipping" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="hover:text-accent-400 transition-colors"
+            >
+              Shipping
             </a>
-            <a href="#" className="hover:text-accent-400 transition-colors">
-              Terms of Service
+            <a 
+              href="https://merchant.razorpay.com/policy/Rig5IA6f1gVvjl/terms" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="hover:text-accent-400 transition-colors"
+            >
+              Terms and Conditions
             </a>
-            <a href="#" className="hover:text-accent-400 transition-colors">
-              Cookie Policy
+            <a 
+              href="https://merchant.razorpay.com/policy/Rig5IA6f1gVvjl/refund" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="hover:text-accent-400 transition-colors"
+            >
+              Cancellation & Refunds
             </a>
           </div>
         </motion.div>
