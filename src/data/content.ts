@@ -276,5 +276,14 @@ export const clients = [
     logo: "/webrocket.png",
     category: "Digital Marketing",
     logoStyle: "modern"
+  },
+  {
+    id: 5,
+    name: "KwikIT",
+    website: "https://www.kwikit.in/",
+    description: "Premium events supplies, corporate gifting, and sports equipment. Elevate your business with quality products at wholesale prices",
+    logo: "/kwikit.png",
+    category: "Business Supplies",
+    logoStyle: "modern"
   }
 ];
