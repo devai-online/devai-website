@@ -285,5 +285,14 @@ export const clients = [
     logo: "/kwikit.png",
     category: "Business Supplies",
     logoStyle: "modern"
+  },
+  {
+    id: 6,
+    name: "Aarambh Media",
+    website: "https://www.aarambh.media/",
+    description: "Storytellers, dreamers, and visual architects creating extraordinary brand experiences. Our award-winning work has been featured in international publications and transformed businesses worldwide",
+    logo: "/aarambh.png",
+    category: "Creative Agency",
+    logoStyle: "modern"
   }
 ];
