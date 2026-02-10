@@ -101,12 +101,12 @@ export const techStack = [
   { name: "PyTorch", category: "AI" },
   { name: "RAG Systems", category: "AI" },
   { name: "Vector Databases", category: "AI" },
-  
+
   // Cloud Platforms
   { name: "AWS", category: "Cloud" },
   { name: "Google Cloud", category: "Cloud" },
   { name: "Microsoft Azure", category: "Cloud" },
-  
+
   // DevOps
   { name: "Kubernetes", category: "DevOps" },
   { name: "Docker", category: "DevOps" },
@@ -293,6 +293,15 @@ export const clients = [
     description: "Storytellers, dreamers, and visual architects creating extraordinary brand experiences. Our award-winning work has been featured in international publications and transformed businesses worldwide",
     logo: "/aarambh.png",
     category: "Creative Agency",
+    logoStyle: "modern"
+  },
+  {
+    id: 7,
+    name: "IntiGrade",
+    website: "https://intigrade.in",
+    description: "The AI grading assistant that bridges the gap between pen and paper. IntiGrade scans, analyzes, and grades physical tests instantly, giving teachers their weekends back.",
+    logo: "/intigrade.png",
+    category: "AI Grading Assistant",
     logoStyle: "modern"
   }
 ];
